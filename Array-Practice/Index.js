@@ -29,3 +29,5 @@ let worldCities = europeanCities.concat(asianCities);
 
 // Problem 5
 
+let cityBucketList = ["Kyoto", "London", "Cape Town", "Vancouver"];
+let isLondonInList = cityBucketList.includes("London");
