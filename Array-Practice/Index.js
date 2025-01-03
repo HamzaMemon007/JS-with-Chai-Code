@@ -22,4 +22,10 @@ popularTeas.pop();
 // console.log(softCopyTeas);
 
 // Problem 4
+let europeanCities = ["Paris", "Rome"];
+let asianCities = ["Tokyo", "Bangkok"];
+let worldCities = europeanCities.concat(asianCities);
+// console.log(worldCities);
+
+// Problem 5
 
