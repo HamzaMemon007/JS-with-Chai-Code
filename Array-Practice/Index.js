@@ -10,6 +10,16 @@ let topCities = ["Berlin", "Singapore", "New York"];
 let hardCopyCities = [...topCities];
 
 topCities.pop();
-console.log(topCities);
-console.log(hardCopyCities);
+// console.log(topCities);
+// console.log(hardCopyCities);
+
+// Problem 3
+
+let popularTeas = ["oolong tea","green tea"]
+let softCopyTeas = popularTeas;
+popularTeas.pop();
+// console.log(popularTeas);
+// console.log(softCopyTeas);
+
+// Problem 4
 
