@@ -48,3 +48,14 @@ while (i <=5) {
 //  console.log(sum);
 
 
+// problem 2
+
+let countdown = [];
+let value = 5;
+
+while (value > 0) {
+    countdown.push(value);
+    value--;
+}
+
+// console.log(countdown);
