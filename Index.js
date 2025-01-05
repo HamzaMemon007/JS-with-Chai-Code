@@ -60,15 +60,26 @@ while (value > 0) {
 
 // console.log(countdown);
 
-let teaCollection = [];
-let tea
-do {
-    tea = prompt(`Enter your favourite tea (type "stop" to finish)`);
-    tea = tea.toLowerCase();
-    if (tea !== "stop") {
-        teaCollection.push(tea);
-    }
-} while (tea !== "stop");
-console.log(teaCollection);
+// let teaCollection = [];
+// let tea
+// do {
+//     tea = prompt(`Enter your favourite tea (type "stop" to finish)`);
+//     tea = tea.toLowerCase();
+//     if (tea !== "stop") {
+//         teaCollection.push(tea);
+//     }
+// } while (tea !== "stop");
+// console.log(teaCollection);
 
+// problem  5
+
+let multipliedNumbers = [];
+
+let numbers = [2,4,6];
+
+for (let l = 0; l < numbers.length; l++) {
+    takeNumber = numbers[l] * 2;
+    multipliedNumbers.push(takeNumber);
+}
+console.log(multipliedNumbers);
 
