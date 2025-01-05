@@ -41,7 +41,7 @@
 let sum = 0;
 let i = 1
 
-while (i <=5) {
+while (i <= 5) {
     sum = sum + i;
     i++;
 }
@@ -60,15 +60,15 @@ while (value > 0) {
 
 // console.log(countdown);
 
-let teaCollection =[];
+let teaCollection = [];
 let tea
 do {
     tea = prompt(`Enter your favourite tea (type "stop" to finish)`);
-
+    tea = tea.toLowerCase();
     if (tea !== "stop") {
         teaCollection.push(tea);
     }
 } while (tea !== "stop");
-// console.log(teaCollection);
+console.log(teaCollection);
 
 
