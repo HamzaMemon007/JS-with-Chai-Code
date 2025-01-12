@@ -81,5 +81,6 @@ for (let l = 0; l < numbers.length; l++) {
     takeNumber = numbers[l] * 2;
     multipliedNumbers.push(takeNumber);
 }
-console.log(multipliedNumbers);
+// console.log(multipliedNumbers);
+
 
