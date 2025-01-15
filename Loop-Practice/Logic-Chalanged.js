@@ -10,8 +10,8 @@ for (let i = 0; i <= 100; i++) {
     else if(i % 5 === 0){
         console.log("Buzz");
     }
-    else{
+    else{ 
         console.log(i);
+        
     }
 }
-
